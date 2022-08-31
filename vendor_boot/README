@@ -1,0 +1,7 @@
+copy original vendor_boot.img to ./
+copy original contents of vendor_boot.img ramdisk.cpio extracted into ./ramdisk folder
+extract dtb from stock vendor_boot.img
+add magiskboot binary to ./
+set the top level in sh script to kernel build top directory
+
+Run the make sh, enjoy :)
